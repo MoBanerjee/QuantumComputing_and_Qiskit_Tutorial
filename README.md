@@ -30,6 +30,21 @@ Blog Link-: https://medium.com/@mohorb04/quantum-computing-challenges-possibilit
 
 Blog Link-: https://medium.com/@mohorb04/todays-learning-session-involved-delving-into-the-fascinating-world-of-quantum-computing-using-762686baf7f1
 
+## What is quantum?
+### Notes-:
+1. Today's lesson started with a deep dive into quantum physics and how it is different from classical physics. Classical physics refer to sets of rules made for macroscopic bodies. But these rules cannot explain behaviours of electrons/light/microscopic entities. So quantum physics came into being
+2. Two instrumental experiments were Ultraviolet catastrophe ( hinted that light has particle nature) and Double-slit experiment( hinted that light had wave nature)
+3. 2 common ways used in past to represent bits are punched cards and compact discs. Electron orbitals can also be used. Scientists began wondering if they could design their bits to follow laws of quantum physics instead of classical ones, i.e use qubits.
+4. Code written in a classical computer can be used to simulate quantum behaviour to some extent for few qubits only (around till 30) as with increasing qubit requirement, it becomes computationally expensive to store all information about them.
+5. Unlike traditional logic gates which are deterministic ( same input always yields same output), probabilistic operations were introduced for example Hadamard gates (H-gates) which can only be applied on qubits.
+6. A H-gate applied on a 0 qubit yield 1 and 0 with 50-50 probability. Similarly, when applied on 1. But anomalous behaviour surfaces when 2 H-gates are used sequentially. Then the final output is deterministic, i.e 0 is yielded with 100 percent probability. This shows that normal probability measure cannot be used to model this phenomenon.
+7. So probability in quantum jargon is replaced by probability amplitude which has a magnitude and a phase ( direction which cannot be physically seen). Square of magnitude is probability of the state. This as well as the magnitude-phase concept is a mathematical trick which sits so well with the observed phenomena that scientists are convinced of its physical existence too although it is not so conspicuous. It is basically a complex number/vector. Having direction enables interference, i.e 2 qubits with opposite phases can cancel each other to have net 0 magnitude.
+8. So the H-gate basically keeps phases of 1 and 0 at the output same when input is 0 but reverts phase of 1 (output)when input is 1. This results in net probability of 1 to be 0 and that of 0 to be 1.
+9. Reversal in phase can be represented by a minus sign. It is actually an angle.
+10. So the advantage that quantum computers give over classical counterparts is that they can simply conduct experiments on physical qubits to find out the outcome instead of having to spend a lot of memory for keeping track of a lot of amplitudes the quantity of which doubles for each new qubit introduced
+
+Blog link-: https://medium.com/@mohorb04/exploring-the-world-of-quantum-computing-a-journey-into-qubits-and-quantum-gates-106dd074c054
+
 
 
 
