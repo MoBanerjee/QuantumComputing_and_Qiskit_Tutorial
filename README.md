@@ -45,7 +45,19 @@ Blog Link-: https://medium.com/@mohorb04/todays-learning-session-involved-delvin
 
 Blog link-: https://medium.com/@mohorb04/exploring-the-world-of-quantum-computing-a-journey-into-qubits-and-quantum-gates-106dd074c054
 
+## Describing quantum computers
+### Notes-:
+1. Quantum states are represented by state vectors which are a list of 2^n numbers ( probability amplitudes)representative of the 2^n possible outcomes/states of a n qubit system.
+2. State vectors are denoted using ket notation.
+3. Quantum states are also represented by complex numbers as the latter have magnitude and direction (phase) both like the former.
+4. All vectors aren't valid state vectors as the sum of the amplitude squares of all outcomes must be 1.
+5. The |00>,|01>,|10> and |11> vectors are the 4 basis vectors as any 2 qubit system can be represented as their combination. They comprise the computational basis.
+6. |+> and |-> are also basis vectors for one qubit systems and are equal to (1/sqrt2)[1 1] and (1/sqrt2)[1 -1] respectively.
+7. Phases aren't physically interpretable so even if we rotate all amplitudes by same phase, the behavior of the system will be unchanged. We can only gauge the phase differences between amplitudes of various outcomes/states. As long as that is same, 2 systems may be mathematically different but are physically identical.
+8. Quantum gates can be represented using matrices containing transition amplitudes which show probability of one state changing into another on application of the gate.
+9. Only those transition matrices are valid which result in total probability of 1 in the outcomes when applied to any initial state. For this to be valid, the condition is that the quantum gate must be reversible,i.e we should be able to undo the gate application to get back the initial state from the outcome. Such matrices are called unitary and so quantum gates are called unitaries and are denoted by U.
+10. To get the outcome of a quantum operation, we simply carry out matrix multiplication of the gate's transition matrix with the given initial state vector.
 
-
+Blog link-: https://medium.com/@mohorb04/understanding-quantum-states-and-quantum-gates-4d2463cf78f2
 
 
