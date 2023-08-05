@@ -43,7 +43,7 @@ Blog Link-: https://medium.com/@mohorb04/todays-learning-session-involved-delvin
 9. Reversal in phase can be represented by a minus sign. It is actually an angle.
 10. So the advantage that quantum computers give over classical counterparts is that they can simply conduct experiments on physical qubits to find out the outcome instead of having to spend a lot of memory for keeping track of a lot of amplitudes the quantity of which doubles for each new qubit introduced
 
-Blog link-: https://medium.com/@mohorb04/exploring-the-world-of-quantum-computing-a-journey-into-qubits-and-quantum-gates-106dd074c054
+Blog Link-: https://medium.com/@mohorb04/exploring-the-world-of-quantum-computing-a-journey-into-qubits-and-quantum-gates-106dd074c054
 
 ## Describing quantum computers
 ### Notes-:
@@ -58,6 +58,6 @@ Blog link-: https://medium.com/@mohorb04/exploring-the-world-of-quantum-computin
 9. Only those transition matrices are valid which result in total probability of 1 in the outcomes when applied to any initial state. For this to be valid, the condition is that the quantum gate must be reversible,i.e we should be able to undo the gate application to get back the initial state from the outcome. Such matrices are called unitary and so quantum gates are called unitaries and are denoted by U.
 10. To get the outcome of a quantum operation, we simply carry out matrix multiplication of the gate's transition matrix with the given initial state vector.
 
-Blog link-: https://medium.com/@mohorb04/understanding-quantum-states-and-quantum-gates-4d2463cf78f2
+Blog Link-: https://medium.com/@mohorb04/understanding-quantum-states-and-quantum-gates-4d2463cf78f2
 
 
