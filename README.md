@@ -60,4 +60,12 @@ Blog Link-: https://medium.com/@mohorb04/exploring-the-world-of-quantum-computin
 
 Blog Link-: https://medium.com/@mohorb04/understanding-quantum-states-and-quantum-gates-4d2463cf78f2
 
+## Entangled states
+### Notes-:
+1. Today's lesson was about product states and entangled states- explained through the example of various 2-qubit states. The addition of two state vectors is known as superposition.
+2. A multi-qubit state is known as product state if it can be expressed as a simple combination of various independant states of multiple single-qubit systems. For example, (1/sqrt2)[1 0 1 0] is a product state which can be expressed as the combination of 2 single qubits with state vectors (1/sqrt2)[1 1] and [1 0]. In qiskit code, the qubits are indexed right to left,i.e |01> means qubit 0 is |1> and qubit 1 is |0>. This is so that they naturally reflect the power of 2 according to their position.
+3. This concept of product state is in accordance to rules of combinations of probabilities. This means that the net probability of two unrelated independant events is simply the product of their respective probabilities. Probability is just replaced by amplitude in the context of quantum mechanics.
+4. However some 2 qubit states cannot be expressed as a combination of 2 one-qubit systems. These are known as entangled states. For example-: [1 0 0 1].
+5. It is impossible to find single qubit systems that can combine using the laws of probability to yield an entangled state
 
+Blog Link-: https://medium.com/@mohorb04/understanding-product-states-and-entangled-states-6b3f2b2b45f3
