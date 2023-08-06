@@ -69,3 +69,16 @@ Blog Link-: https://medium.com/@mohorb04/understanding-quantum-states-and-quantu
 5. It is impossible to find single qubit systems that can combine using the laws of probability to yield an entangled state
 
 Blog Link-: https://medium.com/@mohorb04/understanding-product-states-and-entangled-states-6b3f2b2b45f3
+
+## Entangled states (contd.)
+### Notes-:
+1. Today's lesson was about creating entanglement using various quantum gates. Most quantum operations start out with a product state, most commonly |00>.
+2. But if we keep applying singe qubit gates like the H gate to them, they will remain in product state irrespective of the single qubit systems turning into complex superpositions (independently)
+3. Entanglement can be generated using multi-qubit gates like controlled gates (cx and cz)
+4. One standard interpretation of cx gate is controlled-x or controlled-NOT gate, which means that x operation(bit flip) will happen on the target bit iff control bit is 1.
+5. Entanglement is created when the control qubit is in the superposition state instead of pure 1 or 0. For instance, |+0>. Here the cx gate when applied with bit 1 as control, will act parallely on both states to create an entangled state |psi superscript +>.
+6. The standard interpretation of cz gate is that iff control bit is 1, then it does z operation of target. z operation means that if bit is 0, then nothing changes and if 1, then it is imparted a phase of -1. So, a cz gate has some visible impact only when both the initial qubits are in 1 state. In all other cases, it leaves things unchanged irrelative to what has been labelled as control and target.
+7. In a similar manner, CNOT gate can be interpreted in 2 contradictory ways. In contrast to standard way, we can look at it as doing a z gate operation on the control bit iff target is |-> and doing nothing if it is |+>
+8. This is the phase kickback phenomenon in which if both control and target bits are superpositions then some features of the target gets fed back into the control qubit.
+
+Blog Link-: https://medium.com/@mohorb04/understanding-quantum-entanglement-and-gates-daa8857eab32
