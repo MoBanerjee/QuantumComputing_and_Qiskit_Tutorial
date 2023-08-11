@@ -107,3 +107,12 @@ Blog Link-: https://medium.com/@mohorb04/harnessing-quantum-entanglement-for-eff
 10. This also reflects in the quantum analogy of the earlier experiment. Alice and Bob conclude that if z base is used by both, then both cannot be 0 (as 00 doesn't come up) and if the x base for one outputs 1, then the z base for other must output 0 as 11 doesn't appear as a likely possibility. Thus, similar to the earlier conclusion, here also they may conclude that if both of them use x base, then they can never get 11 as output. However, their hypothesis when tested turns out incorrect as although less, there is some possibility of 11 coming up. This shows the unique correlations between qubits in an entangled pair which is a special characteristic of such pairs. The results of qubits aren't well defined before measuring (unlike shape and colour) and therefore they are way more random than classical counterparts.
 
 Blog Link-: https://medium.com/@mohorb04/exploring-heisenbergs-uncertainty-principle-through-classical-and-quantum-experiments-9f9bdef7f4d0
+
+## Visualizing Entanglement
+### Notes-:
+1. Today's lesson was about visualizing qubits, 1 qubit at a time and two at once using the run_puzzle method of hello_qiskit module.
+2. The inferences from the visualizations were that when qubit is in a pure 0 or 1 state then Z measurement gives a deterministic result while X measurement yields a random result (50-50 probability ) of 0 and 1 as outcomes.
+3. Also, when we start out with + or - qubits then results are swapped for X and Z measurements.
+4. When ry gate is applied with pi/4  rotation (repeatedly) and bloch command is used to superimpose the X and Z measurement illustrations, then it is seen that the dot where the probability levels intersect goes through some rotation with each successive ry rotation.
+
+Blog Link-: https://medium.com/@mohorb04/demystifying-qubits-through-visualizations-insights-from-hello-qiskits-run-puzzle-method-e178a0e29a8
