@@ -119,7 +119,8 @@ Blog Link-: https://medium.com/@mohorb04/demystifying-qubits-through-visualizati
 
 ## Visualizing Entanglement (contd.)
 ### Notes-:
-1. Today's lesson used the run_puzzle method from hello_qiskit to visualize two qubits at once. Thus a grid with 4 new lines was introduced. 2. Two of the lines corresponded to probability of both qubits disagreeing when both were subjected to x and z measurements.
+1. Today's lesson used the run_puzzle method from hello_qiskit to visualize two qubits at once. Thus a grid with 4 new lines was introduced.
+2. Two of the lines corresponded to probability of both qubits disagreeing when both were subjected to x and z measurements.
 3. The other 2 lines represented probability of the qubits disagreeing when one is subjected to X and the other to Z.
 4. The application of X gate simply flips Z measurment outcome while keeping X unchanged. So performing X gate on one of the qubits affects one whole row in the grid.
 5. The application of H gate swaps Z and X measurement outcomes. So applying H gate on one of the qubits swaps whole rows in the grid.
