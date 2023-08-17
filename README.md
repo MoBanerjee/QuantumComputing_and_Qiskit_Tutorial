@@ -126,3 +126,13 @@ Blog Link-: https://medium.com/@mohorb04/demystifying-qubits-through-visualizati
 5. The application of H gate swaps Z and X measurement outcomes. So applying H gate on one of the qubits swaps whole rows in the grid.
 
 Blog Link-: https://medium.com/@mohorb04/visualizing-2-qubit-dynamics-with-qiskits-run-puzzle-method-39cbe10a8b6b
+
+## Grover's search algorithm
+### Notes-:
+1. The binary search algorithm is a very efficient classical algorithm with a logarithmic time complexity. But it is constrained in its ability to search only sorted lists. This becomes a bottleneck when looking up unsorted databases.
+2. Databases are considered to be like blackboxes that simply give an output when queried with an input (like for searching a certain entry) without concerning the users with the internal workings. Such blackboxes are often called oracles.
+3. As the only classical way to look up unsorted lists is random search which grows linearly with list size, indexing of databases becomes paramount even though it is memory intensive to do it.
+4. Thus, in such a scenario, the Grover’s quantum search algorithm comes to the rescue by offering a quadratic speedup over its classical counterpart.
+5. It guarantees a square root time complexity by enabling the database to input and output quantum superposition states when queried.
+
+Blog Link-: https://medium.com/@mohorb04/introduction-to-grovers-search-algorithm-43b9f7a29b48
