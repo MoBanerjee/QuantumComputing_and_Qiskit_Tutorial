@@ -136,3 +136,15 @@ Blog Link-: https://medium.com/@mohorb04/visualizing-2-qubit-dynamics-with-qiski
 5. It guarantees a square root time complexity by enabling the database to input and output quantum superposition states when queried.
 
 Blog Link-: https://medium.com/@mohorb04/introduction-to-grovers-search-algorithm-43b9f7a29b48
+
+## Grover's search algorithm
+### Notes-:
+1. Various computer science problems can be conveniently modelled into database search problems which can further be resolved by quantum search algorithms.
+2. One example given was of sudoku. Given a certain solution, we can easily check whether it is valid or not. Thus, we can also look at this problem as a database search problem wherein the solver is querying us (the database) in search of an input ( a certain solution of the grid) that yields the output “valid” if it satisfies the rules of the game.
+3. So, such problems deal with “finding an input that gives a certain output”.
+4. Boolean Satisfiability Problems, also called SAT problems are a class of problems that are solved in this manner.
+5. In fact, a lot of other computational problems can also be treated as SAT problems. The problem is basically a set of clauses (conditions) on the various possible bit combinations. The solution to such a problem is a bit string that satisfies all the clauses.
+
+Blog Link-: https://medium.com/@mohorb04/database-search-problems-50a7630f027b
+
+
