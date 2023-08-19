@@ -147,4 +147,16 @@ Blog Link-: https://medium.com/@mohorb04/introduction-to-grovers-search-algorith
 
 Blog Link-: https://medium.com/@mohorb04/database-search-problems-50a7630f027b
 
+## Grover's search algorithm
+### Notes-:
+1. We can represent all solution states together as one vector, say A. This vector A is the superposition of all solution state vectors. All other non-solution state vectors are superposed to form another vector B.
+2. As vectors A and B don’t have any component in common, they are perpendicular vectors and thus a coordinate plane can be setup with the two vectors as Y and X axes respectively.
+3. The initialisation step of the algorithm involves creating an equal superposition state of all computational basis vectors (like by applying an H gate to each qubit).
+4. Since each state is either a solution state or a non-solution state, the initial vector can be plotted between the 2 axes on the coordinate plane set up earlier.
+5. As there will be generally more non-solution states than solution states, the initial vector will be more closely inclined to the axis B than A.
+6. The goal of this algorithm is to get the plotted state vector as close as possible to the A axis (solution state axis) via various geometric manipulations.
+7. Such manipulations comprise of rotating the vector about the B axis followed by rotating it again about the very first plotted vector. The resultant vector is closer to the A axis now.
+8. If this sequence of manipulations is repeated, then the state vector will keep moving progressively closer to the A axis and finally, we will get the desired solution states.
+   
+Blog Link-: https://medium.com/@mohorb04/high-level-overview-of-grovers-search-algorithm-668effdc5afc
 
