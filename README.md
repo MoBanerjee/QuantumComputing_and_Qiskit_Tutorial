@@ -137,7 +137,7 @@ Blog Link-: https://medium.com/@mohorb04/visualizing-2-qubit-dynamics-with-qiski
 
 Blog Link-: https://medium.com/@mohorb04/introduction-to-grovers-search-algorithm-43b9f7a29b48
 
-## Grover's search algorithm
+## Grover's search algorithm (contd.)
 ### Notes-:
 1. Various computer science problems can be conveniently modelled into database search problems which can further be resolved by quantum search algorithms.
 2. One example given was of sudoku. Given a certain solution, we can easily check whether it is valid or not. Thus, we can also look at this problem as a database search problem wherein the solver is querying us (the database) in search of an input ( a certain solution of the grid) that yields the output “valid” if it satisfies the rules of the game.
@@ -147,7 +147,7 @@ Blog Link-: https://medium.com/@mohorb04/introduction-to-grovers-search-algorith
 
 Blog Link-: https://medium.com/@mohorb04/database-search-problems-50a7630f027b
 
-## Grover's search algorithm
+## Grover's search algorithm (contd.)
 ### Notes-:
 1. We can represent all solution states together as one vector, say A. This vector A is the superposition of all solution state vectors. All other non-solution state vectors are superposed to form another vector B.
 2. As vectors A and B don’t have any component in common, they are perpendicular vectors and thus a coordinate plane can be setup with the two vectors as Y and X axes respectively.
@@ -159,4 +159,16 @@ Blog Link-: https://medium.com/@mohorb04/database-search-problems-50a7630f027b
 8. If this sequence of manipulations is repeated, then the state vector will keep moving progressively closer to the A axis and finally, we will get the desired solution states.
    
 Blog Link-: https://medium.com/@mohorb04/high-level-overview-of-grovers-search-algorithm-668effdc5afc
+
+## Grover's search algorithm (contd.)
+### Notes-:
+1. The first step in the algorithm requires us to create an equal superposition state of all possible inputs to the oracle.
+2. This may be done by applying a H gate to each qubit, suppose if each qubit starts out in the 0 state. This resultant initial vector is called the s vector.
+3. This is followed by applying the oracle circuit (U) on all the qubits. This selectively reverses the phases of all solution states in the earlier superposition created.
+4. Finally, the diffusion operator is applied.
+5. The second and third steps usually need to be repeated sqrtn number of times due to a simple mathematical logic. If the initial angle between s vector and x axis is theta, then each round of the 2nd and 3rd step rotates the s vector towards the y axis (our motive) by 2 times theta. Thus, number of rounds required will be roughly one right angle divided by 2*theta.
+6. The theta comes out to be 1/sqrtn radians by simple trigonometry and small angle approximation where n is the number of possible inputs (in a single solution problem). This makes the number of iterations equal to (pi/4)*(sqrtn),i.e proportional to sqrtn.
+7. Applying the steps repeatedly thus gets our s vector closer and closer to the y axis which increases the probability of getting the solution states upon measurement at the end.
+
+Blog Link-: https://medium.com/@mohorb04/a-deep-dive-into-grovers-search-5adcbae5a490
 
