@@ -172,3 +172,13 @@ Blog Link-: https://medium.com/@mohorb04/high-level-overview-of-grovers-search-a
 
 Blog Link-: https://medium.com/@mohorb04/a-deep-dive-into-grovers-search-5adcbae5a490
 
+## Grover's search algorithm (contd.)
+### Notes-:
+1. Random guessing strategies grow linearly with increase in input search space size. The input search space increases exponentially with the number of bits (2 power n). Thus, random guessing algorithms also grow exponentially with the number of bits.
+2. Drawing from that and the fact that Grover’s search does sqrtN iterations (where N is input search space size), it grows at the rate of 2 power n/2.
+3. Another algorithm was mentioned called Schoning’s algorithm. Despite being a classical algorithm, it grows at a rate of roughly 1.3334 power n (for 3-SAT problems) which is faster than even Grover’s search. It exploits the special feature of SAT problems, the fact that SAT problems are simply sets of independent clauses which need to be fulfilled by the correct solution.
+4. So if an initial random guess doesn’t work, then that failed guess is not disposed off. Rather, a few bits in it are toggled to make it satisfy the clauses it failed. This may result in it violating a few new clauses but on an average, this kind of iteration strategy proves more efficient.
+5. An even more efficient search strategy can be designed by combining the Grover’s search and Schoning’s search algorithms. This uses the latter’s bit toggling strategy in the oracle circuit of the former. This thus makes good use of the inherent structures in SAT problems.
+
+Blog Link-: https://medium.com/@mohorb04/growth-rate-of-search-algorithms-3d896e664d84
+
