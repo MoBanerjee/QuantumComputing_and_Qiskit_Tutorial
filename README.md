@@ -182,3 +182,14 @@ Blog Link-: https://medium.com/@mohorb04/a-deep-dive-into-grovers-search-5adcbae
 
 Blog Link-: https://medium.com/@mohorb04/growth-rate-of-search-algorithms-3d896e664d84
 
+## Single systems 
+### Notes-:
+1. The topic of classical information is seemingly unrelated to quantum information but is actually very essential as an analogy to understand the more advanced ideas in the latter.
+2. A system was defined to be an abstraction of a physical entity that stores information.
+3. If at every instant, this system is in one of several states (finite number) that can be recognized unambiguously, then those states are called classical states and the system is defined to be classical.
+4. For the lesson, we assumed that there could only be a finite number of states and that sigma denoted the set of classical states for a classical system. Few examples of classical systems given were a bit (states 1 and 0), a six sided die, a switch and so on.
+5. The idea of probability vectors was introduced as a convenient way to represent the probabilistic state of a classical system. The probabilities of a system being in its different classical states was combined into a vector of dimension equal to the cardinality of the sigma set. This was done to make it easier to use these probabilities later in various vector/matrix calculations.
+6. The two intuitive conditions satisfied by any such probability vector were-: each of its entry must a non-negative real number and all the entries must sum up to a total probability of 1.
+
+Blog Link-: https://medium.com/@mohorb04/classical-information-part-1-bf41803fed
+
