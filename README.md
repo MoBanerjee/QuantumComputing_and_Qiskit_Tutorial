@@ -193,3 +193,15 @@ Blog Link-: https://medium.com/@mohorb04/growth-rate-of-search-algorithms-3d896e
 
 Blog Link-: https://medium.com/@mohorb04/classical-information-part-1-bf41803fed
 
+## Single systems (contd.)
+### Notes-:
+1. If a classical system has n total possible classical states that it can exist in, then an n dimensional vector (with each dimension representing a state) with entry as 1 for one state and 0 for the rest is called a standard basis vector.
+2. Each n dimensional vector (probability vectors) can be expressed as a linear combination of these n n-dimensional vectors.
+3. The main difference between a classical state and a probabilistic state is the extent of our knowledge of the system state. Measurement of a system state involves knowing with certainty that the system is in a certain state (the one in which it is observed when measured). This makes us update both the classical state and probabilistic state to be a standard basis vector with 1 as the entry for the measured state.
+4. However, had we not measured the state, the probabilistic vector would have been a linear combination of all possible states with coefficients equal to the square roots of probabilities. The probability of a state would be given by the perceived chance of getting that state upon measurement.
+5. This is where quantum behaviour takes a spooky turn. Their measurement properties are considered as unusual in this regard.
+
+Blog Link-: https://learn.qiskit.org/course/basics/single-systems
+
+
+
