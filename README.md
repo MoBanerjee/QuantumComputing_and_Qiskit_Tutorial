@@ -201,7 +201,7 @@ Blog Link-: https://medium.com/@mohorb04/classical-information-part-1-bf41803fed
 4. However, had we not measured the state, the probabilistic vector would have been a linear combination of all possible states with coefficients equal to the square roots of probabilities. The probability of a state would be given by the perceived chance of getting that state upon measurement.
 5. This is where quantum behaviour takes a spooky turn. Their measurement properties are considered as unusual in this regard.
 
-Blog Link-: https://learn.qiskit.org/course/basics/single-systems
+Blog Link-: https://medium.com/@mohorb04/probabilistic-states-915be8141b50
 
 
 
