@@ -203,5 +203,14 @@ Blog Link-: https://medium.com/@mohorb04/classical-information-part-1-bf41803fed
 
 Blog Link-: https://medium.com/@mohorb04/probabilistic-states-915be8141b50
 
+## Introduction
+### Notes-:
+1. Classical Machine Learning algorithms have attained massive speedups recently due to availability of more computationally powerful hardware.
+2. If quantum ideas are thrown into the mix, the results might be even more optimistic.
+3. There are 4 different kinds of intersections of Quantum Computing and Machine Learning- using Classical or Quantum information and running algorithms on either classical or quantum computers.
+4. There are two kinds of Quantum algorithms-: those that need qRAM (access to quantum random access memory, i.e data in superposition) and those that don’t. The ones that require qRAM have the potential to provide exponential speedups over their classical counterparts.
+5. However, presently there is no available hardware to realise qRAM.
+
+Blog Link-: https://medium.com/@mohorb04/qml-an-introduction-253d4853dd13
 
 
