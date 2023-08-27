@@ -213,4 +213,16 @@ Blog Link-: https://medium.com/@mohorb04/probabilistic-states-915be8141b50
 
 Blog Link-: https://medium.com/@mohorb04/qml-an-introduction-253d4853dd13
 
+## Parameterized quantum circuits
+### Notes-:
+1. The 2 key characteristics of parameterized circuits that make them fit to be used for QML are Expressibility and Entangling Capability.
+2. The main idea is that any parameterized circuit must be generalized well in order to be used as a machine learning model.
+3. So, the circuit must output a large subset of the output Hilbert space ( an extension of the 3-dimensional Euclidean space into n possible dimensions) and should also be able to entangle the qubits to ensure that the quantum advantage over classical computers stays intact and it is not easy to simulate the same on the latter.
+4. Expressibility is the property for measuring the first clause- coverage of the Hilbert space while Entangling Capability, as the name suggests, sums up the second clause.
+
+Blog Link-: https://medium.com/@mohorb04/properties-of-parameterized-circuits-9cd23f4acc79
+
+
+
+
 
