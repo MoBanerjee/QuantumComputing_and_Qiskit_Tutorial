@@ -231,6 +231,17 @@ Blog Link-: https://medium.com/@mohorb04/properties-of-parameterized-circuits-9c
 
 Blog Link-: https://medium.com/@mohorb04/expressibility-and-entangling-capability-fcc85521d23a
 
+## Training parameterized quantum circuits
+### Notes-:
+1. Similar to classical models, gradient-based optimization can be used for quantum models as well.
+2. Even in parameterized quantum circuits, the process of learning from given datasets is similar to the classical way of learning.
+3. It computes a certain loss/cost function (also called objective function) and then tries to minimize it with respect to the parameters involved.
+4. This iterative improvement strategy progressively leads to a better set of parameters that fits the data better.
+5. The function minimized is the expectation value.
+6. Broadly, there are three categories of algorithms that can optimise variational circuits- gradient-based, evolutionary and gradient-free.
+
+Blog Link-: https://medium.com/@mohorb04/optimization-of-quantum-circuits-20676d4c55bc
+
 
 
 
