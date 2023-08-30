@@ -242,6 +242,17 @@ Blog Link-: https://medium.com/@mohorb04/expressibility-and-entangling-capabilit
 
 Blog Link-: https://medium.com/@mohorb04/optimization-of-quantum-circuits-20676d4c55bc
 
+## Training parameterized quantum circuits (contd.)
+### Notes-:
+1. I revised a learning strategy which is used very commonly throughout the machine learning domain, called gradient descent. It was also enlightening to see how it can be extended to the quantum domain.
+2. Our objective in most machine learning problems is to reduce the loss/cost function computed for a set of parameters so that the data can be modelled better by the machine learning model.
+3. Gradient descent is a technique that can help us converge to a local minimum of the cost function.
+4. A smart way to minimize a function is to move along the steepest gradient (of descent) of the function by updating its parameters in that direction.
+5. The learning rate, eta, is a small positive hyperparameter that decides the size of the updates. This process when conducted iteratively leads us to hit the local minimum of the graph.
+6. This process can be used in quantum machine learning as well. There are two kinds that can be used- Finite Difference Gradients and Analytic Gradients.
+
+Blog Link-: https://medium.com/@mohorb04/dc255974582f
+
 
 
 
